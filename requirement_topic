@@ -1,0 +1,34 @@
+# Climate Change Website Project
+Copy from slide for easy reference
+## Project Overview
+Make a COOL & Accessible one-page website containing at least 6 facts about and related to climate change and global warming.
+
+## Design Requirements
+
+### Create sketches of the webpage
+
+You need to make 2 designs:
+1. A design for large screens such as your laptop/tablet
+2. A design for mobile screen (less than 600px in width)
+
+## Technical Requirements
+
+### Required Components
+- **Sticky navbar** is required
+- **Footer** required
+
+### CSS/HTML Requirements
+- Using **pseudo-classes/pseudo-elements** required (at least 8 distinct ones!)
+- Using **Google Font** is required
+- It needs to use primarily **Flexbox layout** [Grid is also fine!]
+- You can use box model for a single component obviously
+- Add some cool animation (no JS)
+
+### Important Constraints
+This is a design/CSS/HTML project.
+- Clicking on navbar menu options should not lead to anywhere!
+- You are expected to only use **pure CSS and HTML**
+- **No CSS framework or JavaScript code!**
+
+## Content
+- APA format citation
