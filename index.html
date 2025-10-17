@@ -10,27 +10,28 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="logo">Climate Education</div>
+<!--        Not sure if this is with in the scope of the project-->
         <ul class="nav-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Facts</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Citation</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#citations">Citations</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>title goes here</h1>
-            <p>sub text goes here</p>
+            <h1>Our Planet's Climate Crisis</h1>
+            <p>Understanding the science and solutions to the most pressing environmental challenge of our time</p>
         </div>
     </section>
 
     <!-- Facts Section -->
-    <section class="facts-section">
-        <h2>title goes here</h2>
+    <section class="facts-section" id="facts">
+        <h2>Problem</h2>
         <div class="facts-container">
             <div class="fact-card">
                 <img src="https://image.goes.here.placeholder" alt="image description">
@@ -65,8 +66,28 @@
         </div>
     </section>
 
-    <!-- Citations Section -->
-    <section class="citations-section">
+    <section class="facts-section" id="solutions">
+        <h2>Solution</h2>
+        <div class="facts-container">
+            <div class="fact-card">
+                <img src="https://image.goes.here.placeholder" alt="image description">
+                <h3>title goes here</h3>
+                <p>sub text goes here</p>
+            </div>
+            <div class="fact-card">
+                <img src="https://image.goes.here.placeholder" alt="image description">
+                <h3>title goes here</h3>
+                <p>sub text goes here</p>
+            </div>
+            <div class="fact-card">
+                <img src="https://image.goes.here.placeholder" alt="image description">
+                <h3>title goes here</h3>
+                <p>sub text goes here</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="citations-section" id="citations">
         <div class="citations-container">
             <h2>Sources & Citations</h2>
             <ol class="citations-list">
@@ -80,7 +101,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
